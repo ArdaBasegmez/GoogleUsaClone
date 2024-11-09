@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial ,sans-serif;
+    color: #1f1f1f;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    max-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: 60px
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-1 {
+    display: inline-block;
+    color: #1f1f1f;
+    line-height: 24px;
+    font-weight: 400;
+    color: (0 0 0 0.87);
+    cursor: pointer;
+    padding: 5px 6.7px;
+}
+
+.nav-1:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.nav-2 {
+    display: inline-block;
+    color: #1f1f1f;
+    line-height: 24px;
+    font-weight: 400;
+    color: (0 0 0 0.87);
+    cursor: pointer;
+    padding: 5px 6.7px;
+}
+.nav-2:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+
+.nav-img {
+    border-radius: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 9px;
+}
+
+.nav-img:hover {
+    opacity: 8;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.nav-3 {
+    border: 1px solid #1054d4;
+    background-color: #1054d4;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 12px;
+    margin: 12px 16px 12px 10px;
+    min-width: 85px;
+}
+.nav-3:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+
+.Main-Part {
+    flex: 1;
+}
+
+.Main-Part .logo {
+    display: block;
+    margin: 0px auto;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.Search {
+    width: 638px;
+    max-width: 584px;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+}
+
+.Main-Part .Search-Board {
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 90px;
+    border-radius: 24px;
+    width: 100%;
+    outline: none;
+    max-width: 584px;
+    align-items: center;
+}
+
+.Search-Board:hover{
+    box-shadow: #d2d2d2 1px 1px 6px 1px;
+
+}
+
+
+.Main-Part .Search-Icon {
+    width: 20px;
+    opacity: .6;
+    position: absolute;
+    top: 14.5px;
+    left: 14px;
+}
+
+.Search .Search-R {
+    width: 14px;
+    position: absolute;
+    top: 5px;
+    right: 75px;
+}
+
+.Search-Icon {
+width: 20px;
+height: 20px;
+background: transparent;
+opacity: 0.48;
+}
+
+.Search-R {
+    display: flex;
+    align-items: center;
+
+}
+
+.Microphone {
+    width: 35px;
+    height: 35px;
+    background: transparent;
+}
+
+.Google-Lens {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+}
+
+.Search-R .Google-Lens {
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.Main-Part .Twins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.S-Btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    color: #d2d2d2;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 20px 10px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 100ms;
+    font-family: Roboto, Arial ,sans-serif;
+    color: #1f1f1f;
+}
+
+.Twins .S-Btn:hover {
+    border: 1px solid #aaa;
+}
+
+.L-Btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    color: #d2d2d2;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 20px 10px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 100ms;
+    font-family: Roboto, Arial ,sans-serif;
+    color: #1f1f1f;
+}
+
+.Twins .L-Btn:hover {
+    border: 1px solid #aaa;
+}
+
+footer {
+    background: #f2f2f2;
+}
+
+.G-Footer {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.G-Footer a {
+    color: #474747;
+    font-size: 14px;
+}
+
+.G-Footer a:hover {
+    text-decoration: underline;
+}
+
+.Footer-Left {
+    display: block;
+    margin-left: 15px;
+    padding: 15px 15px;
+}
+
+.Footer-Right {
+    display: block;
+    margin-right: 15px;
+    padding: 15px 15px;
+}
+
+.C-1{
+    align-items: center;
+    padding: 15px 15px;
+}
+
+
+.F-11{
+    padding: 20px;
+}
+.F-12 {
+    padding: 20px;
+}
+.F-13 {
+    padding: 20px;
+}
+.F-21 {
+    padding: 20px;
+}
+.F-22 {
+    padding: 20px;
+}
+.F-23 {
+    padding: 20px;
+}
